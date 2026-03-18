@@ -1,0 +1,226 @@
+body{
+	padding: 10px;
+}
+
+:root{
+
+--backgroundColor:rgb(255, 255, 255);
+--BackgroundButtonColor:#AC1919;
+--BorderColor:#AC1919;
+--HeaderbackgroundColor:#FFF0F0;
+--HoverColor:rgb(247, 177, 177);
+--BackgroundContenerColor:#ffb13b;
+--Footercollor:#FF1717;
+
+
+}
+
+
+
+header{
+position:fixed;
+height: 26px;
+top: 0px;
+left: 0px;
+width: 100%;
+height:40px;
+padding:0px;
+margin:0px;
+text-align:center;
+background-color:var(--HeaderbackgroundColor);
+font-size:18px;
+
+}
+
+
+.line{
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	height:10px;
+	background-color:#FF1717;
+	width: 100%;
+		
+}
+
+.brand{
+
+	display:grid;
+	place-items:center;
+	gap:10px;
+	margin-top: 40px;
+	margin-bottom:10px;
+	
+}
+
+
+
+
+.brand img{ height:150px;}
+
+form {
+  border:1px solid red;
+  position:relative;
+  left:30%;
+  top:50%;
+  
+  width:40%;
+  border-radius: 5px;
+  background-color: #FFF0F0;
+  padding: 20px;
+}
+
+label {display: block;
+	font-size:30px;
+text-decoration:bold;
+}
+
+input[type=text], select {
+  font-size:30px;
+  width: 70%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+transition: width 0.5s ,background-color 0.8s ;
+
+}
+input[type=text]:hover{
+  width: 100%;
+    background-color: rgb(247, 177, 177);
+
+}
+input[type=password]:hover{
+  width: 100%;
+  background-color: rgb(247, 177, 177);
+}
+
+
+input[type=password], select {
+	font-size:30px;
+  width: 70%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+transition: width 0.5s ,background-color 0.8s ;
+
+
+}
+input[type=text]:focus{background-color:rgb(197, 175, 175);
+}
+
+input[type=password]:focus{background-color:rgb(197, 175, 175);}
+
+
+
+
+
+
+
+
+input[type=submit] {
+	margin-top:18px;
+	width:70%;
+	height:46px;
+	border:0;
+	border-radius:12px;
+	background-color:#d60000;
+	color:#fff;
+	font-weight:bold;
+	font-size: 1.5em;
+	cursor:pointer;
+	transparent:0.2s;
+
+display: block;
+justify-self: center;
+
+
+}
+
+
+
+input[type=submit]:hover {
+	transform:translateY(-1px);filter: brightness(0,95);
+		
+}
+  input[type=submit]:active{
+	  transform:translateY(0);
+	  
+  } 
+  
+
+
+
+/*End Comment*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+label{
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+		height:5px;
+
+}
+input{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+
+
+#button1{
+	  color: white;
+
+
+	border-radius: 25px;  
+	font-size:50px;
+	margin-left:center;
+	background-color:#FF0000;
+	width:400px;
+	height:70px;
+	background-color:FF0000;
+	text-align:center;
+	opacity:03;
+	
+}
+
+
+*/

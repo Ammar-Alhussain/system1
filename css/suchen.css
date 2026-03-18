@@ -1,0 +1,50 @@
+
+.partner{
+background-color: rgb(250, 5, 5);
+margin: 5px;
+padding: 10px;
+
+height: 400px;
+display: grid;
+grid-template-columns: repeat(4,auto)   ;
+grid-template-rows:  20px repeat(6,auto);
+
+gap:10px;
+}
+
+.partner div{ background-color: burlywood;}
+
+
+.partner .item--1{
+
+    background-color: rgb(36, 238, 10);
+   grid-column: 1/-1;
+   grid-row: 1/4;
+  
+
+}
+
+
+
+
+
+
+.contener {
+
+display: flex;
+background-color: rgb(253, 78, 9);
+flex-direction: column-reverse;
+
+
+}
+.contener div{
+
+background-color: rgb(226, 177, 43);
+font-size: 25px;
+color: rgb(7, 3, 3);
+padding: 10px;
+margin: 10px;
+
+}
+
+

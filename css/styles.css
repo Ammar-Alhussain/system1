@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(240, 240, 240);;
+/*!font-family: "Sofia", sans-serif;*/
+  font-size: 30px;
+
+}
+
+button{  background-color: #96D4D4;
+         font-size:25px;
+	     padding:5px 5px 5px 5px;
+		 margin:0px 0px 20px 20px;
+	     width : 200px;
+	     height : 50px; 
+}
+/*  table,th,td{
+	  text-align: center;
+
+	 border: 1px solid white;
+     border-collapse: collapse;
+	/*  border-radius: 10px; }*/
+	
+	table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+
+tr:nth-child(even){
+	  background-color: #D6EEEE;
+	
+}
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+iframe{background:red;}
+
+
+li a:hover {
+  background-color: #111111;
+}
+
+.city{
+	background-color: tomato;
+  color: white;
+  padding: 10px;
+	
+	
+}
+.cityz{
+	background-color: black;
+    color: red;
+	
+	
+}
+
+/*
+body{
+  background-image: url('flü.png'); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+*/
+
+img {
+	border:2px solid red ;
+    padding:100px ;
+
